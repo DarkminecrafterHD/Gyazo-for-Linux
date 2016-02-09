@@ -1,7 +1,7 @@
 machine:
   environment:
     PACKAGE: gyazo
-    VERSION: 1.1
+    VERSION: 1.3-darkangeel-hd
 
 dependencies:
   pre:

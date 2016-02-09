@@ -10,3 +10,4 @@
 override_dh_install:
 	dh_install
 	mv debian/gyazo/usr/bin/gyazo.rb debian/gyazo/usr/bin/gyazo
+	mv debian/gyazo/usr/bin/gyazo-gnome.rb debian/gyazo/usr/bin/gyazo-gnome
