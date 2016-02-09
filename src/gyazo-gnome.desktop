@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Gyazo
+Version=1.1
+Comment=Seriously Instant Screen-Grabbing
+Exec=gyazo-gnome
+Terminal=false
+Type=Application
+Icon=gyazo
+Categories=Utility;Graphics;
+StartupNotify=false
