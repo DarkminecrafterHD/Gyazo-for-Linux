@@ -106,6 +106,7 @@ https.start{
     system "echo -n '#{url}' | #{clipboard_cmd}"
   end
   system "#{browser_cmd} '#{url}'"
+  system "echo '#{url}' | xclip -selection c -i"
 
   # save id
   newid = res.response['X-Gyazo-Id']
