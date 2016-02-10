@@ -102,10 +102,8 @@ https.start{
   res = https.post(CGI,data,header)
   url = res.response.body
   puts url
-  if system "which #{clipboard_cmd} >/dev/null 2>&1" then
-    system "echo -n '#{url}' | #{clipboard_cmd}"
-  end
   system "#{browser_cmd} '#{url}'"
+  system "echo -n '#{url}' | #{clipboard_cmd}"
 
   # save id
   newid = res.response['X-Gyazo-Id']

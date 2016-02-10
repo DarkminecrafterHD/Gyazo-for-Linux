@@ -1,5 +1,5 @@
 Name: gyazo
-Version: 1.3
+Version: 1.3.1-darkangeel-hd
 Release: 1
 Summary: Screen capture tool
 License: GPLv3+
