@@ -4,31 +4,43 @@
 
 https://gyazo.com/
 
-## Install
 
-### apt-get
+### Install
+
+#### Debian/Ubuntu package
+
+[Download a deb file](https://github.com/DarkminecrafterHD/Gyazo-for-Linux/releases).
+
+Install Ruby, ImageMagick and Xdotool before installing Gyazo.
+
+    $ sudo apt-get install ruby imagemagick xdotool
+    $ sudo dpkg -i gyazo_XXX_all.deb
+
+
+#### apt-get (Oficial version) [Git here](https://github.com/gyazo/Gyazo-for-Linux)
 
     $ curl -s https://packagecloud.io/install/repositories/gyazo/gyazo-for-linux/script.deb.sh | sudo bash
     $ sudo apt-get install gyazo
 
-### How to add a Gyazo icon to Ubuntu Unity Launcher
+
+#### How to add a Gyazo icon to Ubuntu Unity Launcher
 
 1. Open Unity Dash
 2. Search "Gyazo"
 3. Drag the Gyazo icon and drop into the launcher
 
-### :warning: Trouble Shooting: Failed to install
+#### :warning: Trouble Shooting: Failed to install
 
 - Please refer to [this issue](https://github.com/gyazo/Gyazo-for-Linux/issues/35).
   - Install `deb` package, write `os` to `ubuntu` and `version` to `trusty`
   - Install `rpm` package, write `os` to `el` and `version` to `6`
 
-### yum
+#### yum (Oficial version) [Git here](https://github.com/gyazo/Gyazo-for-Linux)
 
     $ curl -s https://packagecloud.io/install/repositories/gyazo/gyazo-for-linux/script.rpm.sh | sudo bash
     $ sudo yum install gyazo
 
-## How to change screenshot-tool
+### How to change screenshot-tool
 
 Gyazo use `import`(imagemagick) command by default.
 If you have some trouble on screenshot such as cannot take correct area, take broken image...,try to change screenshot-tool by this way.
@@ -63,7 +75,7 @@ end
 
 https://wiki.archlinux.org/index.php/Taking_a_screenshot
 
-### Contributions
+#### Contributions
 Pull requests are welcome.
 
 Gyazo for Linux is maintained by Nota Inc. But the development is not as active as that of Windows / Mac versions. We can't fix a reported problem soon.
@@ -72,14 +84,15 @@ If you want a problem fixed soon, we recommend you fix it by yourself.
 
 We would be glad if you send a PR to this repository.
 
-### How to release
+#### How to release
 
 - Create Pull Request from `master` to `release`
     - Please mark version with `git tag`
 - Build package and push to packagecloud by CircleCI when it merged
 
-## License
+### License
 
 Copyright (c) 2015 Nota Inc.
 
 This software is licensed under the GPL
+
