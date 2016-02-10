@@ -2,7 +2,7 @@
 
 # setting
 browser_cmd = 'xdg-open'
-clipboard_cmd = 'xclip'
+clipboard_cmd = 'xclip -selection c -i'
 
 require 'net/http'
 require 'open3'
