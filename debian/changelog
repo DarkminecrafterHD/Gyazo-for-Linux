@@ -4,9 +4,9 @@ gyazo (1.3-darkangeel-hd) unstable; urgency=low
 
  -- DarkminecraferHD 774 <DarkminecrafterHD@users.noreply.github.com>  Wed, 10 Feb 2016 00:28:01 +0900
 
-gyazo (1.2-darkangeel-hd) unstable; urgency=low
+gyazo (1.2-darkangeel-hd-patch-1) unstable; urgency=low
 	
-  * Copy link to clipboard.
+  * Fixed Copy link to clipboard.
 
  -- NoNameA 774 <DarkminecrafterHD@users.noreply.github.com>  Wed, 10 Feb 2016 00:20:01 +0900
 
